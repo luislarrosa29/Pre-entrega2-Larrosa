@@ -1,0 +1,144 @@
+body    { 
+    background-image: url('../media/fondo.jpg');
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+header img
+ { width: 150px;
+    border-radius: 50%;
+    border: 2px solid purple; 
+}
+header {
+    display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 20px;
+margin-left: 5%;
+margin-right: 5%;
+font-weight: bold;
+}
+header a {
+    color: blue;
+    font-size: 20px;
+    text-decoration: none;
+}
+header input  { 
+    display: block;
+    border-radius: 7px;
+    text-align: center;
+    width: 660px;
+    font-weight: bold;
+   
+}
+header nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+
+main h2{
+
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    border: 2px solid purple;
+    color: #f1f1f1;
+    border-radius: 10px;
+    
+      
+}
+main ul img{
+    border-radius: 20px;
+    justify-content:center ;
+    width: 250px;
+}
+ main ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.ofertas {
+    display: block;
+    text-align: center;
+    
+}
+
+
+main select {margin: 10px;
+align-items: center;
+}
+main a {
+    color: #f1f1f1;
+    margin-top: 10%;
+}
+.subtitulo {
+    text-align: center;
+    border: 2px solid purple;
+    background-color: black;
+    border-radius: 10px;
+    color: #f1f1f1;
+}
+main li{
+margin-bottom: 20px;
+text-transform: none;
+border: 2px solid purple;
+color: #f1f1f1;
+background-color: rgb(61, 60, 60);
+display: flex;
+
+justify-content: center;
+border-radius: 50px;
+
+}
+main ul div{
+width: 350px;
+}
+
+
+
+
+
+
+
+footer fieldset {
+    background-color:rgb(247, 192, 239);  
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+footer input{
+    
+    text-align: center;
+    
+
+}
+
+p{
+    text-align: center;
+  }
+
+  .botones {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+  .botones a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+  }
