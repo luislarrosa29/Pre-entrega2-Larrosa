@@ -128,8 +128,11 @@ header nav ul li {
     background-color: rgba(148, 43, 148, 0.5);
     color: #fff;
     padding: 20px 0;
+   margin: 10px;
 }
-
+footer form {
+    margin: 20px;
+}
 .footerContenido {
     display: flex;
     justify-content: space-between;
