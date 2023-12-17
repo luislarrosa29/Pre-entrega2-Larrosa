@@ -1,0 +1,52 @@
+//Variables
+@import "../var/variables";
+
+header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 20px;
+margin-left: 3%;
+margin-right: 3%;
+font-weight: bold;
+    div{
+        a{
+            img{
+            width: 150px;
+            border-radius: 50%;
+            border: 2px solid purple; 
+            }
+        }
+        
+    }
+    nav{
+        ul{
+            li{
+            list-style-type: none;
+            display: inline-block;
+                a{
+                text-decoration: none;
+                margin: 10px;
+                color: black;
+                font-size: 1.5rem;
+                    &:hover{
+                    color: rgb(204, 93, 204);
+                    }
+                }
+            }
+        }
+    }
+    .boton{
+    background-color: rgb(122, 49, 170);
+    color: #FAFAFA;
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+        &:hover{
+        background-color: rgb(172, 48, 172);
+        color: #FAFAFA;
+        cursor: pointer;
+        }
+    }
+}

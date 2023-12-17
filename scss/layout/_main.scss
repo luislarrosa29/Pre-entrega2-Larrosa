@@ -1,0 +1,42 @@
+@import "../var/variables";
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(238, 130, 238, 0.288);
+        border: 1px solid #cccccc;
+        padding: 20px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        margin: 10px; 
+        border-radius: 10px;
+        img{
+            max-width: 100%;
+            border-radius: 5px;
+
+        }
+        p{
+            margin: 10px 0;
+            text-decoration: solid;
+            text-align: center;
+
+        }
+        button{
+            background-color: rgb(187, 63, 187);
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 10px;
+            &:hover{
+                background-color: violet;
+            }
+        }
+    }
+}

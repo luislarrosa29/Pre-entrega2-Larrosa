@@ -1,0 +1,32 @@
+@media (max-width:1023px){
+    header{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        button{
+            display: none;
+        }
+    }
+    body{
+        section{
+            h1{
+                font-size: inherit;
+            }
+            p{
+                font-size: inherit;
+            }
+            h2{
+                font-size: inherit;
+            }
+        }
+    }
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+    footer{
+        div{
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+}
