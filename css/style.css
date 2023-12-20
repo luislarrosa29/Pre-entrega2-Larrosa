@@ -9,6 +9,12 @@ body {
 }
 body img {
   width: 250px;
+  transition: 0.5s;
+}
+body img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: 1.5s;
 }
 
 header {
@@ -47,11 +53,15 @@ header .boton {
   border: none;
   padding: 10px 20px;
   font-size: 1.1rem;
+  transition: 1s;
 }
 header .boton:hover {
   background-color: violet;
   color: #FAFAFA;
   cursor: pointer;
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: 0.6s;
 }
 
 main {
@@ -88,9 +98,13 @@ main div button {
   font-size: 1rem;
   cursor: pointer;
   margin-top: 10px;
+  transition: 1s;
 }
 main div button:hover {
   background-color: violet;
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: 0.6s;
 }
 
 footer {
