@@ -35,7 +35,7 @@ main{
             cursor: pointer;
             margin-top: 10px;
             &:hover{
-                background-color: violet;
+                background-color: $boton-secundario;
             }
         }
     }

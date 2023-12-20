@@ -1,0 +1,23 @@
+body{ 
+    section{
+        text-align: center;
+    width: 100%;
+        h1{
+        color: rgb(158, 54, 158);
+        text-transform: uppercase;
+        border: solid;
+        margin: 2%;
+            p{
+            color: #252222;
+            width: 80%;
+            }
+
+        }
+        h2{
+            color: rgb(163, 26, 163);
+            font-family: nth($list: $fuentes, $n:2 );
+            text-decoration: underline;
+        }
+    
+    }
+}

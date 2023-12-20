@@ -1,7 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(199, 176, 231);
+}
+body img {
+  width: 250px;
+}
+
 header {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   margin-top: 20px;
   margin-left: 3%;
   margin-right: 3%;
@@ -19,14 +33,15 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   margin: 10px;
-  color: black;
+  color: purple;
   font-size: 1.5rem;
+  font-family: "Times New Roman";
 }
 header nav ul li a:hover {
-  color: rgb(204, 93, 204);
+  color: violet;
 }
 header .boton {
-  background-color: rgb(122, 49, 170);
+  background-color: rgb(187, 63, 187);
   color: #FAFAFA;
   font-weight: 700;
   border: none;
@@ -34,43 +49,9 @@ header .boton {
   font-size: 1.1rem;
 }
 header .boton:hover {
-  background-color: rgb(172, 48, 172);
+  background-color: violet;
   color: #FAFAFA;
   cursor: pointer;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  background-color: rgb(199, 176, 231);
-}
-body img {
-  width: 250px;
-}
-body section {
-  text-align: center;
-  margin: 10vh;
-}
-body section h1 {
-  color: rgb(158, 54, 158);
-  text-transform: uppercase;
-  font-size: 40px;
-  border: solid;
-}
-body section h1 p {
-  font-size: 4rem;
-  color: #252222;
-  padding: 10px;
-  font-size: 20px;
-}
-body section h2 {
-  color: rgb(163, 26, 163);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-decoration: underline;
 }
 
 main {
@@ -118,30 +99,48 @@ footer {
   padding: 20px 10px;
   display: flex;
   justify-content: space-around;
+  font-family: "Lucida Sans";
 }
 footer div {
   display: flex;
   max-width: 1200px;
-  padding: 0 10px;
 }
 footer div div {
   margin-inline: 5%;
   display: flex;
   flex-direction: column;
-}
-footer div div h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+  padding: 0;
 }
 footer div div p {
-  margin: 5px 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  max-width: 100%;
 }
 footer div div p i {
-  margin-right: 10px;
+  width: 1rem;
 }
 footer div form {
   margin-inline: 5%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer div form div .form-check-input {
+  background-color: violet;
+  color: rgb(187, 63, 187);
+}
+footer div form div .form-check-input:checked {
+  background-color: rgb(187, 63, 187);
+  border-color: violet;
+}
+footer div form .btn {
+  background-color: rgb(187, 63, 187);
+}
+footer div form .btn:hover {
+  background-color: violet;
+}
+footer div form .btn:active {
+  background: violet;
 }
 footer div h3 {
   font-size: 1.5rem;
@@ -162,9 +161,16 @@ footer div a i {
   margin-right: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  header {
+    align-items: center;
+  }
+  header ul {
+    padding-left: 0;
+  }
   .contenedor {
     grid-template-columns: 1fr;
+    justify-content: center;
   }
 }
 @media (max-width: 1023px) {
@@ -192,6 +198,25 @@ footer div a i {
     flex-direction: column;
     text-align: center;
   }
+}
+body section {
+  text-align: center;
+  width: 100%;
+}
+body section h1 {
+  color: rgb(158, 54, 158);
+  text-transform: uppercase;
+  border: solid;
+  margin: 2%;
+}
+body section h1 p {
+  color: #252222;
+  width: 80%;
+}
+body section h2 {
+  color: rgb(163, 26, 163);
+  font-family: "Franklin Gothic Medium";
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,8 +1,13 @@
-@import "layout/header";
 @import "base/reset";
+@import "var/variables";
+@import "componentes/lists";
+@import "componentes/maps";
+@import "componentes/mixin";
+
+@import "layout/header";
 @import"layout/main";
 @import"layout/footer";
-@import"layout/subtitulo";
+
 @import"componentes/mediaMobile";
 @import"componentes/mediaTablet";
-@import "var/variables";
+@import "layout/banner";
