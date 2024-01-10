@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+//BODY
 body {
   font-family: "Roboto", sans-serif;
   background-color: rgb(199, 176, 231);
@@ -17,6 +18,7 @@ body img:hover {
   transition: 1.5s;
 }
 
+//HEADER
 header {
   display: flex;
   flex-direction: row;
@@ -64,6 +66,7 @@ header .boton:hover {
   transition: 0.6s;
 }
 
+//MAIN
 main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -107,6 +110,7 @@ main div button:hover {
   transition: 0.6s;
 }
 
+//FOOTER
 footer {
   background-color: rgba(148, 43, 148, 0.5);
   color: #fff;
@@ -175,6 +179,7 @@ footer div a i {
   margin-right: 10px;
 }
 
+//MOVIL
 @media (max-width: 767px) {
   header {
     align-items: center;
@@ -187,6 +192,8 @@ footer div a i {
     justify-content: center;
   }
 }
+
+//TABLET
 @media (max-width: 1023px) {
   header {
     height: auto;
@@ -213,6 +220,8 @@ footer div a i {
     text-align: center;
   }
 }
+
+//BODY
 body section {
   text-align: center;
   width: 100%;
